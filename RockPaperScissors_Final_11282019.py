@@ -96,29 +96,29 @@ def Start_Choosing_Screen():
     
     #Features for the choosing screen     
     Sentence=Label(Choosing_Screen)
-    challenger_img = PhotoImage(file="D:/rps/choose_your_challenger.gif")
-    Sentence.config(image=challenger_img)
-    Sentence.pack()     
+    challenger_img = PhotoImage(file="D:/rps/choose_your_challenger.gif") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    Sentence.config(image=challenger_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    Sentence.pack()     #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     Sentence.place(x=170,y=70)    
     
     choose_bot1=Button(Choosing_Screen,text="bot1",bd=2,font=100, command = To_Game_Screen_avg_joe)
-    img123 = PhotoImage(file="D:/rps/average_joe.png")
-    choose_bot1.config(image=img123)
-    choose_bot1.pack()     
+    img123 = PhotoImage(file="D:/rps/average_joe.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    choose_bot1.config(image=img123) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    choose_bot1.pack()      #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     choose_bot1.place(x=10,y=120)
      
     
     choose_bot2=Button(Choosing_Screen,text="bot2",bd=2,font=100, command = To_Game_Screen_monkey)
-    monkey = PhotoImage(file="D:/rps/monkey_see_monkey_do.png")
-    choose_bot2.config(image=monkey)
-    choose_bot2.pack()     
+    monkey = PhotoImage(file="D:/rps/monkey_see_monkey_do.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    choose_bot2.config(image=monkey) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    choose_bot2.pack()      #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     choose_bot2.place(x=220,y=140)
      
     
     choose_bot3=Button(Choosing_Screen,text="bot3",bd=2,font=100, command = To_Game_Screen_brain)
-    img3 = PhotoImage(file="D:/rps/brain.png")
-    choose_bot3.config(image=img3)
-    choose_bot3.pack()    
+    img3 = PhotoImage(file="D:/rps/brain.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    choose_bot3.config(image=img3) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    choose_bot3.pack()     #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     choose_bot3.place(x=500,y=140)
     
     #Essential thing for any interface
@@ -183,9 +183,9 @@ def Start_Game_Screen_monkey():
     
     #These are the Key Feature for the Monkey game screen, displaying monkey and buttons    
     overlay=Label(Game_Screen_monkey)
-    overlay_img = PhotoImage(file="D:/rps/overlay_test.png")
-    overlay.config(image=overlay_img)
-    overlay.pack()
+    overlay_img = PhotoImage(file="D:/rps/overlay_test.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    overlay.config(image=overlay_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    overlay.pack() #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     overlay.place(x=0,y=0)
     
     #We have a exit botton, it just a nice thing to have in a game design
@@ -194,23 +194,23 @@ def Start_Game_Screen_monkey():
     
     #Instead of displaying text on the rock,paper scissors buttons, we use pictures to show rock, paper, scissors.
     rock=Button(Game_Screen_monkey,text="rock",bd=2,font=100, command= play_rock )
-    rock_img = PhotoImage(file="D:/rps/rock.png")
-    rock.config(image=rock_img)
-    rock.pack()     
+    rock_img = PhotoImage(file="D:/rps/rock.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    rock.config(image=rock_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    rock.pack()      #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     rock.place(x=23,y=225)
          
         
     paper=Button(Game_Screen_monkey,text="paper",bd=2,font=100, command = play_paper)
-    paper_img = PhotoImage(file="D:/rps/paper.png")
-    paper.config(image=paper_img)
-    paper.pack()     
+    paper_img = PhotoImage(file="D:/rps/paper.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    paper.config(image=paper_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    paper.pack()      #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     paper.place(x=220,y=205)
          
      
     scissors=Button(Game_Screen_monkey,text="scissors",bd=2,font=100, command = play_scissors)
-    scissors_img = PhotoImage(file="D:/rps/scissors.png")
-    scissors.config(image=scissors_img)
-    scissors.pack()
+    scissors_img = PhotoImage(file="D:/rps/scissors.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    scissors.config(image=scissors_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    scissors.pack() #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     scissors.place(x=483,y=203)
         
     
@@ -265,9 +265,9 @@ def draw_monkey():
     Draw_screen.geometry("414x146")
   
     draw_label=Label(Draw_screen)
-    draw_img1 = PhotoImage(file="D:/rps/draw.png")
-    draw_label.config(image=draw_img1)
-    draw_label.pack()
+    draw_img1 = PhotoImage(file="D:/rps/draw.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    draw_label.config(image=draw_img1) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    draw_label.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     draw_label.place(x=0,y=0)  
     
     Draw_screen.mainloop()
@@ -334,32 +334,32 @@ def Start_Game_Screen_avg_joe():
 
     
     overlay=Label(Game_Screen)
-    overlay_img = PhotoImage(file="D:/rps/overlay_avg_joe.png")
-    overlay.config(image=overlay_img)
-    overlay.pack()
+    overlay_img = PhotoImage(file="D:/rps/overlay_avg_joe.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    overlay.config(image=overlay_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    overlay.pack() #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     overlay.place(x=0,y=0)
     
     Exit=Button(Game_Screen,text="Exit game",bd=25,font = ('gothic',12), command = close_window)
     Exit.place(x=600,y=420)      
     
     rock=Button(Game_Screen,text="rock",bd=2,font=100, command= play_rock )
-    rock_img = PhotoImage(file="D:/rps/rock.png")
-    rock.config(image=rock_img)
-    rock.pack()     
+    rock_img = PhotoImage(file="D:/rps/rock.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    rock.config(image=rock_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    rock.pack()      #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     rock.place(x=23,y=225)
          
         
     paper=Button(Game_Screen,text="paper",bd=2,font=100, command = play_paper)
-    paper_img = PhotoImage(file="D:/rps/paper.png")
-    paper.config(image=paper_img)
-    paper.pack()     
+    paper_img = PhotoImage(file="D:/rps/paper.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    paper.config(image=paper_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    paper.pack()     #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     paper.place(x=220,y=205)
          
      
     scissors=Button(Game_Screen,text="scissors",bd=2,font=100, command = play_scissors)
-    scissors_img = PhotoImage(file="D:/rps/scissors.png")
-    scissors.config(image=scissors_img)
-    scissors.pack()
+    scissors_img = PhotoImage(file="D:/rps/scissors.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    scissors.config(image=scissors_img) #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    scissors.pack() #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     scissors.place(x=483,y=203)
         
     
@@ -369,9 +369,9 @@ def Start_Game_Screen_avg_joe():
         global rnd,user_score,user_choice,bot_score,Num_of_Draw
         
         
-        bot_choice = random.choice(choices)
+        bot_choice = random.choice(choices) #from https://www.youtube.com/watch?v=9Kdn9uIYhKw
        # We use separate if&elif statement to display all possible win or lose result, we want to be specific because it is much more entertaining for the user to see both player's choice compare to only knowing who win the run       
-        if user_choice == bot_choice :
+        if user_choice == bot_choice :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
          # We paste a new score board on top of the old ones everytime when we are updateing it
             Show_result=Label(Game_Screen,text="Draw! You and the challenger picked the same choice!                                                                                                                                     ",font = ('gothic',12))
             Show_result.place(x=10,y=150)
@@ -380,42 +380,42 @@ def Start_Game_Screen_avg_joe():
             Show_Number_of_Draw=Label(Game_Screen,text="Draw counter:  "+str(Num_of_Draw),font = ('gothic',12))
             Show_Number_of_Draw.place(x=220,y=450)            
                 
-        elif user_choice == "r" and bot_choice == "s" :
+        elif user_choice == "r" and bot_choice == "s" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             Show_result=Label(Game_Screen,text="You picked rock, Challenger picked scissor. Rock blunts scissors, You win this round!                    ",font = ('gothic',12))
             Show_result.place(x=10,y=150)
             
             user_score = user_score + 1
             Show_user_score=Label(Game_Screen,text="Your score:  "+str(user_score),font = ('gothic',12))
             Show_user_score.place(x=420,y=450)            
-        elif user_choice == "p" and bot_choice == "r" :
+        elif user_choice == "p" and bot_choice == "r" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             Show_result=Label(Game_Screen,text="You picked paper, Challenger pioked rock. Paper covers rock, You won this round!                     ",font = ('gothic',12))
             Show_result.place(x=10,y=150)
             
             user_score = user_score + 1
             Show_user_score=Label(Game_Screen,text="Your score:  "+str(user_score),font = ('gothic',12))
             Show_user_score.place(x=420,y=450)            
-        elif user_choice== "s" and bot_choice == "p" :
+        elif user_choice== "s" and bot_choice == "p" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             Show_result=Label(Game_Screen,text="You picked scissors, Challenger picked paper. Scissors cuts paper, You won this round!                          ",font = ('gothic',12))
             Show_result.place(x=10,y=150) 
             
             user_score = user_score + 1
             Show_user_score=Label(Game_Screen,text="Your score:  "+str(user_score),font = ('gothic',12))
             Show_user_score.place(x=420,y=450)            
-        elif user_choice == "r" and bot_choice == "p" :
+        elif user_choice == "r" and bot_choice == "p" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
                 Show_result=Label(Game_Screen,text="You picked rock, Challenger picked paper. Paper covers rock, Challenger won this round!                           ",font = ('gothic',12))
                 Show_result.place(x=10,y=150)
                 
                 bot_score = bot_score + 1
                 Show_bot_score=Label(Game_Screen,text="Challenger's score:  "+str(bot_score),font = ('gothic',12))
                 Show_bot_score.place(x=20,y=450)            
-        elif user_choice == "p" and bot_choice == "s" :
+        elif user_choice == "p" and bot_choice == "s" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
                 Show_result=Label(Game_Screen,text="You picked paper, Challenger picked scissors. Scissors cuts paper, Challenger won this round!          ",font = ('gothic',12))
                 Show_result.place(x=10,y=150)
                 
                 bot_score = bot_score + 1
                 Show_bot_score=Label(Game_Screen,text="Challenger's score:  "+str(bot_score),font = ('gothic',12))
                 Show_bot_score.place(x=20,y=450)            
-        elif user_choice == "s" and bot_choice == "r"  :
+        elif user_choice == "s" and bot_choice == "r"  :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
                 Show_result=Label(Game_Screen,text="You picked scissors, Challenger picked rock. Rock blunts scissors, Challenger won this round!           ",font = ('gothic',12))
                 Show_result.place(x=10,y=150)
             
@@ -443,9 +443,9 @@ def Start_Game_Screen_avg_joe():
         Winner_Screen.geometry("519x149")    
         
         win=Label(Winner_Screen)
-        win_img = PhotoImage(file="D:/rps/winner.png")
-        win.config(image=win_img)
-        win.pack()
+        win_img = PhotoImage(file="D:/rps/winner.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        win.config(image=win_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        win.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
         win.place(x=0,y=0)   
         
         Winner_Screen.mainloop()
@@ -460,9 +460,9 @@ def Start_Game_Screen_avg_joe():
         Loser_screen.geometry("424x129")
         
         loser=Label(Loser_screen)
-        loser_img = PhotoImage(file="D:/rps/loser.png")
-        loser.config(image=loser_img)
-        loser.pack()
+        loser_img = PhotoImage(file="D:/rps/loser.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        loser.config(image=loser_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        loser.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
         loser.place(x=0,y=0) 
         
         Loser_screen.mainloop()
@@ -473,9 +473,9 @@ def Start_Game_Screen_avg_joe():
         Draw_screen.geometry("414x146")
         
         draw_label1=Label(Draw_screen)
-        draw_img5 = PhotoImage(file="D:/rps/draw.png")
-        draw_label1.config(image=draw_img5)
-        draw_label1.pack()
+        draw_img5 = PhotoImage(file="D:/rps/draw.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        draw_label1.config(image=draw_img5)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        draw_label1.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
         draw_label1.place(x=0,y=0)  
         
         Draw_screen.mainloop()
@@ -555,32 +555,32 @@ def Start_Game_Screen_brain():
 
     
     overlay=Label(Game_Screen)
-    overlay_img = PhotoImage(file="D:/rps/overlay_brain.png")
-    overlay.config(image=overlay_img)
-    overlay.pack()
+    overlay_img = PhotoImage(file="D:/rps/overlay_brain.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    overlay.config(image=overlay_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    overlay.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     overlay.place(x=0,y=0)
     
     Exit=Button(Game_Screen,text="Exit game",bd=25,font = ('gothic',12), command = close_window)
     Exit.place(x=600,y=420)      
     
     rock=Button(Game_Screen,text="rock",bd=2,font=100, command= play_rock )
-    rock_img = PhotoImage(file="D:/rps/rock.png")
-    rock.config(image=rock_img)
-    rock.pack()     
+    rock_img = PhotoImage(file="D:/rps/rock.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    rock.config(image=rock_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    rock.pack()     #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     rock.place(x=23,y=225)
          
         
     paper=Button(Game_Screen,text="paper",bd=2,font=100, command = play_paper)
-    paper_img = PhotoImage(file="D:/rps/paper.png")
-    paper.config(image=paper_img)
-    paper.pack()     
+    paper_img = PhotoImage(file="D:/rps/paper.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    paper.config(image=paper_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    paper.pack()     #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     paper.place(x=220,y=205)
          
      
     scissors=Button(Game_Screen,text="scissors",bd=2,font=100, command = play_scissors)
-    scissors_img = PhotoImage(file="D:/rps/scissors.png")
-    scissors.config(image=scissors_img)
-    scissors.pack()
+    scissors_img = PhotoImage(file="D:/rps/scissors.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    scissors.config(image=scissors_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+    scissors.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
     scissors.place(x=483,y=203)
         
     
@@ -589,9 +589,9 @@ def Start_Game_Screen_brain():
         
         global rnd,user_score,user_choice,bot_score,Num_of_Draw,choices
         
-        bot_choice = random.choice(choices)
+        bot_choice = random.choice(choices)#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             
-        if user_choice == bot_choice :
+        if user_choice == bot_choice :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
 
             Show_result=Label(Game_Screen,text="Draw! You and the challenger picked the same choice!                                                                                                                                     ",font = ('gothic',12))
             Show_result.place(x=10,y=150)
@@ -600,7 +600,7 @@ def Start_Game_Screen_brain():
             Show_Number_of_Draw=Label(Game_Screen,text="Draw counter:  "+str(Num_of_Draw),font = ('gothic',12))
             Show_Number_of_Draw.place(x=220,y=450)            
                 
-        elif user_choice == "r" and bot_choice == "s" :
+        elif user_choice == "r" and bot_choice == "s" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             Show_result=Label(Game_Screen,text="You picked rock, Challenger picked scissor. Rock blunts scissors, You win this round!                ",font = ('gothic',12))
             Show_result.place(x=10,y=150)
             user_score = user_score + 1
@@ -611,41 +611,46 @@ def Start_Game_Screen_brain():
             #from https://www.tutorialspoint.com/python/list_append.htm AND 
             #  https://www.w3schools.com/python/ref_list_append.asp
             choices.append("p")
-        elif user_choice == "p" and bot_choice == "r" :
+        elif user_choice == "p" and bot_choice == "r" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             Show_result=Label(Game_Screen,text="You picked paper, Challenger pioked rock. Paper covers rock, You won this round!                   ",font = ('gothic',12))
             Show_result.place(x=10,y=150)
             user_score = user_score + 1
             Show_user_score=Label(Game_Screen,text="Your score:  "+str(user_score),font = ('gothic',12))
             Show_user_score.place(x=420,y=450) 
-            choices.append("s")
-        elif user_choice== "s" and bot_choice == "p" :
+            choices.append("s")    #from https://www.tutorialspoint.com/python/list_append.htm AND 
+            #  https://www.w3schools.com/python/ref_list_append.asp
+        elif user_choice== "s" and bot_choice == "p" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
             Show_result=Label(Game_Screen,text="You picked scissors, Challenger picked paper. Scissors cuts paper, You won this round!                        ",font = ('gothic',12))
             Show_result.place(x=10,y=150) 
             user_score = user_score + 1
             Show_user_score=Label(Game_Screen,text="Your score:  "+str(user_score),font = ('gothic',12))
             Show_user_score.place(x=420,y=450)
-            choices.append("r")
-        elif user_choice == "r" and bot_choice == "p" :
+            choices.append("r")    #from https://www.tutorialspoint.com/python/list_append.htm AND 
+            #  https://www.w3schools.com/python/ref_list_append.asp
+        elif user_choice == "r" and bot_choice == "p" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
                 Show_result=Label(Game_Screen,text="You picked rock, Challenger picked paper. Paper covers rock, Challenger won this round!                      ",font = ('gothic',12))
                 Show_result.place(x=10,y=150)
                 bot_score = bot_score + 1
                 Show_bot_score=Label(Game_Screen,text="Challenger's score:  "+str(bot_score),font = ('gothic',12))
                 Show_bot_score.place(x=20,y=450)
-                choices.append("p")
-        elif user_choice == "p" and bot_choice == "s" :
+                choices.append("p")    #from https://www.tutorialspoint.com/python/list_append.htm AND 
+            #  https://www.w3schools.com/python/ref_list_append.asp
+        elif user_choice == "p" and bot_choice == "s" :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
                 Show_result=Label(Game_Screen,text="You picked paper, Challenger picked scissors. Scissors cuts paper, Challenger won this round!                   ",font = ('gothic',12))
                 Show_result.place(x=10,y=150)
                 bot_score = bot_score + 1
                 Show_bot_score=Label(Game_Screen,text="Challenger's score:  "+str(bot_score),font = ('gothic',12))
                 Show_bot_score.place(x=20,y=450)  
-                choices.append("s")
-        elif user_choice == "s" and bot_choice == "r"  :
+                choices.append("s")    #from https://www.tutorialspoint.com/python/list_append.htm AND 
+            #  https://www.w3schools.com/python/ref_list_append.asp
+        elif user_choice == "s" and bot_choice == "r"  :#from https://www.youtube.com/watch?v=9Kdn9uIYhKw
                 Show_result=Label(Game_Screen,text="You picked scissors, Challenger picked rock. Rock blunts scissors, Challenger won this round!           ",font = ('gothic',12))
                 Show_result.place(x=10,y=150)
                 bot_score = bot_score + 1
                 Show_bot_score=Label(Game_Screen,text="Challenger's score:  "+str(bot_score),font = ('gothic',12))
                 Show_bot_score.place(x=20,y=450)
-                choices.append("r")
+                choices.append("r")    #from https://www.tutorialspoint.com/python/list_append.htm AND 
+            #  https://www.w3schools.com/python/ref_list_append.asp
                 
         
         rnd=rnd+1
@@ -691,9 +696,9 @@ def Start_Game_Screen_brain():
         Winner_Screen.geometry("519x149")    
         
         win=Label(Winner_Screen)
-        win_img = PhotoImage(file="D:/rps/winner.png")
-        win.config(image=win_img)
-        win.pack()
+        win_img = PhotoImage(file="D:/rps/winner.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        win.config(image=win_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        win.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
         win.place(x=0,y=0)   
         
         Winner_Screen.mainloop()
@@ -708,9 +713,9 @@ def Start_Game_Screen_brain():
         Loser_screen.geometry("424x129")
         
         loser=Label(Loser_screen)
-        loser_img = PhotoImage(file="D:/rps/loser.png")
-        loser.config(image=loser_img)
-        loser.pack()
+        loser_img = PhotoImage(file="D:/rps/loser.png")#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        loser.config(image=loser_img)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        loser.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
         loser.place(x=0,y=0) 
         
         Loser_screen.mainloop()
@@ -722,9 +727,9 @@ def Start_Game_Screen_brain():
         Draw_screen.geometry("414x146")
         
         draw_label=Label(Draw_screen)
-        draw_img3 = PhotoImage(file="D:/rps/draw.png")
-        draw_label.config(image=draw_img3)
-        draw_label.pack()
+        draw_img3 = PhotoImage(file="D:/rps/draw.png") #from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        draw_label.config(image=draw_img3)#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
+        draw_label.pack()#from stockoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter
         draw_label.place(x=0,y=0)  
         
         Draw_screen.mainloop()
